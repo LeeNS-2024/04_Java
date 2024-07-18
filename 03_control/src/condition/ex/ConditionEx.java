@@ -327,7 +327,7 @@ public class ConditionEx {
 		
 		if(kor<40 || eng<40 || mat<40 || soc<40 || sci<40 ) {
 			System.out.printf("FAIL [40점 미만 과목 : %s]", str);
-			}else if(ave < 60) System.out.printf("FAIL [점수 : %.1f (평균 미달)]", avg);
+			}else if(avg < 60) System.out.printf("FAIL [점수 : %.1f (평균 미달)]", avg);
 			else System.out.printf("PASS [점수 : %.1f / 100]", avg);
 	}
 	/* [ 연습문제 강사님 코드 ] 
