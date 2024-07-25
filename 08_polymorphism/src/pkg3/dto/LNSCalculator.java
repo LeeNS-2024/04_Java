@@ -6,32 +6,27 @@ public class LNSCalculator implements Calculator{
 
 	@Override
 	public int plus(int a, int b) {
-		int result = a + b;
-		return 0;
+		return a+b;
 	}
 
 	@Override
 	public int minus(int a, int b) {
-		int result = a-b;
-		return result;
+		return a-b;
 	}
 
 	@Override
 	public int multi(int a, int b) {
-		int result = a * b;
-		return result;
+		return a*b;
 	}
 
 	@Override
 	public int div(int a, int b) {
-		int result = a / b;
-		return result;
+		return a/b;
 	}
 
 	@Override
 	public int mod(int a, int b) {
-		int result = a % b;
-		return result;
+		return a%b;
 	}
 
 	@Override
