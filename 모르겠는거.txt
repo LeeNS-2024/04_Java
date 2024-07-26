@@ -21,3 +21,5 @@ new 연산자
 getter / setter
 
 향상된 for문
+
+toString
