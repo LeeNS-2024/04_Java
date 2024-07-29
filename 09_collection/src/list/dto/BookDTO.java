@@ -2,11 +2,11 @@ package list.dto;
 
 public class BookDTO {
 
-	private String title;	// 제목
-	private String writer;	// 저자(글쓴이) 
-	private int price;		// 가격
+	private String title;  // 제목
+	private String writer; // 저자(글쓴이)
+	private int price;	   // 가격
 	
-	public BookDTO() {}		// 기본 생성자
+	public BookDTO() {} // 기본 생성자
 
 	// 매개 변수 생성자
 	public BookDTO(String title, String writer, int price) {
@@ -16,7 +16,6 @@ public class BookDTO {
 		this.price = price;
 	}
 
-	// alt + shift + s -> r : getter/setter
 	public String getTitle() {
 		return title;
 	}
@@ -41,11 +40,17 @@ public class BookDTO {
 		this.price = price;
 	}
 
-	// 이클립스 toString() 자동완성 : alt + shift + s -> s
+	// 이클립스 toString() 자동완성  : alt + shift + s -> s
 	@Override
 	public String toString() {
 		return "BookDTO [title=" + title + ", writer=" + writer + ", price=" + price + "]";
 	}
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -138,39 +138,41 @@ public class ListService {
 		
 		
 		// 5. E set(int index, E e)
-		// - 지정된 index 번째 요소를 
+		// - 지정된 index번째 요소를
 		//   e(두 번째 매개 변수)로 수정
-		//   -> 메서드 반환값으로 이전 객체가 반환된다
+		//   -> 메서드 반환 값으로 이전 객체가 반환 된다
 		
-		System.out.println("-------------------------------------------------------");
+		System.out.println("-------------------------------");
 		System.out.println(menuList);
 		
-		String before = menuList.set(2,  "소갈비");
+		String before = menuList.set(2, "소갈비");
 		
 		System.out.println(before + "가 " + menuList.get(2) + "로 변경됨");
 		System.out.println(menuList);
 		
+		
 		// 6. boolean contains(E e)
-		// - List 내부에 e 와 같은 객체가
-		// 존재하면 true, 없으면 false 반환 (확인 기능)
-		System.out.println("보쌈 : "+ menuList.contains("보쌈"));
-		System.out.println("막국수 : "+ menuList.contains("막국수"));
+		// - List에 내부에 e와 같은 객체가 
+		//   존재하면 true, 없으면 false 반환  (확인 기능)
+		System.out.println("보쌈 : " + menuList.contains("보쌈"));
+		System.out.println("막국수 : " + menuList.contains("막국수"));
+		
 		
 		// 7. int indexOf(E e)
-		// - List 내부에 e 와 같은 객체가
-		// 	존재하면 해당 index 반환
-		//  존재하지 않으면 -1 반환
-		System.out.println("삼겹살 : "+ menuList.indexOf("삼겹살")); // 3
-		System.out.println("오겹살 : "+ menuList.indexOf("오겹살")); // -1
+		//  - List에 내부에 e와 같은 객체가 
+		//   존재하면 해당 index 반환
+		//   존재하지 않으면 -1 반환
+		System.out.println("삼겹살 : " + menuList.indexOf("삼겹살"));
+		System.out.println("오겹살 : " + menuList.indexOf("오겹살"));
 		
+			
 		// 8. E remove(int index)
-		// - List 에서 지정된 index 번째 요소를 제거
-		//  -> 중간이 제거되면 뒤쪽 요소들이 앞으로 이동됨
+		// - List에서 지정된 index 번째 요소를 제거
+		//   -> 중간이 제거되면 뒤쪽 요소를 앞으로 이동됨
 		// - 제거된 요소는 메서드 결과로 반환됨
 		
 		System.out.println(menuList.remove(1) + " 제거");
 		System.out.println(menuList);
-		
 		
 	}
 	
@@ -181,21 +183,3 @@ public class ListService {
 	
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
