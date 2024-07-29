@@ -1,5 +1,8 @@
 변수, 연산자, 조건문, 반복문, 분기문
 
+변수 - 메모리(RAM)에 값을 기록하기 위한 공간
+=> 가독성 up, 재사용성 up 코드량 down, 유지보수 up
+
 public static void main(String[] args){ }
 // main method : 자바 실행 메서드(기능)
 // 자바 프로그램을 실행시키기 위한 구문(기능)
@@ -105,6 +108,7 @@ import ex.OperatorEx; // ex파일에 OperatorEx 가져오기
 OperatorEx ex = new OperatorEx(); // OperatorEx 객체 생성
 // 호출 시 ex.method1(); 형식으로 호출하면됨
 
+// ex)
 switch(num){
 case 1 : method1(); break; // 1 입력 시 method1() 호출
 case 2 : method2(); break; // 2 입력 시 method2() 호출
