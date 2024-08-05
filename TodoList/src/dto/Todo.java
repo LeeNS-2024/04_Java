@@ -21,7 +21,7 @@ public class Todo implements Serializable{ // 직렬화
 	private String detail;			// 상세 내용
 	private boolean complete;		// 완료 여부
 	private LocalDateTime regDate;	// 등록 날짜
-
+	
 
 
 	// java.time 패키지
