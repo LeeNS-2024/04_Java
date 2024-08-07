@@ -35,7 +35,7 @@ public class ListService {
 		// List : 부모 인터페이스
 		//       -> 객체 생성 불가 / 부모 참조 변수 가능
 		
-		//List list = new ArrayList(); // 10칸 짜리 생성 
+		//List list = new ArrayList(); // 10칸 짜리 생성 (기본값)
 		
 		List list = new ArrayList(3); // 3칸 짜리 생성 
 		
